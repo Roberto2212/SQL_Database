@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Este Script muestra el nombre y las estadisticas de cada arma.
+/// </summary>
 public class Armas : MonoBehaviour
 {
     

@@ -6,21 +6,15 @@ using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/// <summary>
+/// Este Script te muestra la ubicación de las armas y su cantidad.
+/// </summary>
+
 public class SavegameManager : MonoBehaviour
 {
     public Text texto;
     public Armas[] armas;
-
-    //private void Start()
-    //{
-    //    string message = "Hello World";
-    //    byte[] encryptedMessage = Encrypt(message);
-    //    string decryptedMessage = Decrypt(encryptedMessage);
-
-    //    Debug.Log(decryptedMessage);
-    //}
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))
